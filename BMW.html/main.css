@@ -1,0 +1,79 @@
+
+.kirish{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+header{
+    height: 200px;
+    text-align: center;
+    background-color: green;
+    border-radius: 50px 5px ;
+}
+#nav{
+    background-color: green;
+    color: aliceblue;
+    text-align: center;
+    margin: auto;
+}
+a{
+    color: blue;
+}
+th{
+    border: 3px solid aliceblue;
+    padding: 5px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.kirish:hover{
+    transform: scale(1.5,1.5);
+}
+.rasm1{
+    width: 44.9%;
+    height: 500px;
+    float: left;
+    margin-top: 1.5px;
+}
+.rasm2{
+    width: 54.9%;
+    height: 750px;
+    float: right;
+    margin-top: 1.5px;
+}
+.rasm3{
+    width: 44.9%;
+    height: 500px;
+    margin-top: 1.5px;
+    float: left;
+}
+.rasm4{
+    width: 54.9%;
+    height: 750px;
+    margin-top: 1.5px;
+    float: right;
+}
+.video1{
+    width: 44.9%;
+    height: 500px;
+    margin-top: 1.5px;
+    float: left;
+    background-color: black;
+}
+.rasm1:hover{
+    transform: scale(1.1,1.1);
+}
+.rasm2:hover{
+    transform: scale(1.1,1.1);
+}
+.rasm3:hover{
+    transform: scale(1.1,1.1);
+}
+.rasm4:hover{
+    transform: scale(1.1,1.1);
+}
+.jadval:hover{
+    transform: scale(1.5,1.5);
+}

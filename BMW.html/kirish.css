@@ -1,0 +1,149 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+.bmw1{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    border-radius: 50%;
+}
+.bmw1>img{
+    width: 85%;
+}
+.login-container{
+    position: relative;
+    top: 18%;
+    width: 50%;
+    height: 75%;
+    float: left;
+}
+.title-container{
+    width: 40%;
+    text-align: center;
+    position:relative;
+    left: 30%;
+    color: white;
+}
+.title-container>img{
+    width: 30%;
+}
+.form-container{
+    width: 40%;
+    position:relative;
+    left: 30%;
+}
+/* ---- label section ---*/
+label{
+    display: block;
+    margin-top: 8px;
+    font-size: small;
+    color: white;
+}
+/* ---- /label section ---*/
+
+/* ---- input section ----*/
+input{
+    width: 100%;
+    height: 30px;
+    padding: 0;
+    border-radius: 4px;
+    text-align: center;
+}
+/* ----- /input section -----*/
+
+
+::placeholder{
+    color: blue;
+}
+
+body.boxxx1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway',sans-serif;
+}
+.boxxx1{
+    padding: 8px 20px;
+    width: 100%;
+    height: 100%;
+    color: blue;
+    font-weight: 100%;
+    border-radius: 100%;
+    text-transform: uppercase;
+    margin-left: 3px;
+    margin-top: 8px;
+    overflow: hidden;
+    position: relative;
+}
+.boxxx1::before{
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg,transform blue,transform);
+    transform: translate(-100%);
+    transition: 0.5s;
+    position: absolute;
+}
+.boxxx1:hover{
+    background: transparent;
+    box-shadow: 0 0 20px 5px blue;
+}
+
+/* -----------button section --------------*/
+body.btn {
+            background-color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Raleway',
+                sans-serif;
+        }
+
+        .btn {
+            padding: 8px 20px;
+            width: 100%;
+            height: 50px;
+            color: #fff;
+            font-weight: 700;
+            border-radius: 15px;
+            text-transform: uppercase;
+            margin-top: 20px;
+            margin-left: 3px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .btn::before {
+            content: "";
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(120deg, transparent,#00fffc, transparent);
+            transform: translateX(-100%);
+            transition: 0.6s;
+            position: absolute;
+        }
+
+        .btn:hover {
+            background: transparent;
+            box-shadow: 0 0 20px 5px #00fffc;
+        }
+
+        .btn:hover::before {
+            transform: translateX(100%);
+        }
+/* -----------/button section --------------*/
+
